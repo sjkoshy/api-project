@@ -4,7 +4,7 @@ It's an API about nothing! Just kidding...
 
 I built an RESTful API with CRUD functionality using data from https://github.com/wdifruscio/seinfeld-api/blob/master/seinfeld.js. You could use this API to create a trivia game, a random quote generator, or a wiki. 
 
-The API is hosted at 
+The API is hosted [here](https://seinfeld-backend-api-346bac98d725.herokuapp.com/api) on Heroku.
 
 Each **object** contains the following:
 - Quote
