@@ -17,7 +17,6 @@ const insertData = async () => {
 
     await Quote.insertMany(scrubbedData);
     console.log('Success!');
-    db.close();
   } catch (error) {
     console.log(error);
     db.close();
