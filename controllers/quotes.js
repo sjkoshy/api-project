@@ -14,17 +14,16 @@ export const getQuote = async (req, res) => {
     const { id } = req.params;
     const quote = await Quote.findById(id);
 
-    if (quote) {
-      return res.status(200).json(quote);
-    } else if (!quote) {
+    if (!quote) {
       return res.status(404).json({ message: "Quote not found" });
-
-    } catch (error) {
-      console.log(error);
-      return res.status(500).json({ message: error.message });
+    } else {
+      return res.status(200).json(quote);
     }
+  } catch (error) {
+    console.log(error);
+    return res.status(500).json({ message: error.message });
   }
-  }
+}
 
 export const createQuote = async (req, res) => {
   const quote = new Quote(req.body);
