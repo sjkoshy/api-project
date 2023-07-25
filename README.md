@@ -46,7 +46,7 @@ Each **object** contains the following:
 
 Hopefully using this API won't make you feel like this...
 
-![Elaine Benes slamming the keyboard in frustration](https://i.gifer.com/VJb.gif)
+![Elaine Benes slamming the keyboard in frustration](./images/VJb.gif)
 
 ...but if it does, please submit a pull request to send me feedback or code suggestions. Thanks! 
 
